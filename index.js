@@ -44,7 +44,7 @@ function windowResized() {
 }
 
 function setSize(arr) {
-    cnvsSize = min(windowWidth, windowHeight) - 10
+    cnvsSize = min(windowWidth, windowHeight) - 20
     resizeCanvas(cnvsSize, cnvsSize)
     translate(cnvsSize / 2, cnvsSize / 2)
     arr.forEach((item) => {
